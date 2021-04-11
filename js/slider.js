@@ -7,7 +7,7 @@ window.onload = function() {
         //swipeToSlide: true,
         arrows: true,
         centerPadding: 0,
-        variableWidth: true,
+        //variableWidth: true,
         responsive: [{
                 breakpoint: 992,
                 settings: {
