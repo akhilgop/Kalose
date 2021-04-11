@@ -1,0 +1,621 @@
+    @import "variables";
+    @media screen and (max-width:575px) {
+        .nb {
+            height: 56px !important;
+        }
+        .nb-content {
+            display: block !important;
+        }
+        .navbar-collapse.show {
+            ul {
+                width: 100%;
+                background-color: $white !important;
+            }
+        }
+        .banner {
+            .text-section {
+                transform: translate(15%, -50%) !important;
+                h1 {
+                    font-size: 30px !important;
+                    margin-bottom: 15px !important;
+                }
+                p {
+                    font-size: 16px !important;
+                    margin-bottom: 15px !important;
+                    width: 40% !important;
+                }
+            }
+            button {
+                padding: 0px 15px !important;
+                height: 48px !important;
+                margin-bottom: 15px;
+            }
+            .img-holder {
+                margin-left: -30px !important;
+            }
+            .button-box {
+                width: 50% !important;
+            }
+        }
+        .mgn-rgt-52 {
+            margin-right: 5px !important;
+        }
+        .products {
+            padding: 30px 15px !important;
+            .content-box {
+                margin-top: 20px !important;
+                h5 {
+                    font-size: 22px !important;
+                }
+            }
+        }
+        .heading-section {
+            h3 {
+                font-size: 25px !important;
+            }
+            .abs-btn {
+                position: relative !important;
+                margin-top: 15px;
+                margin: auto !important;
+                text-align: center !important;
+                button {
+                    height: 48px !important;
+                    width: 200px !important;
+                    top: inherit !important;
+                    right: inherit !important;
+                }
+                .btn-primary {
+                    margin-right: auto !important;
+                }
+            }
+        }
+        .clients {
+            padding: 30px 0px !important;
+            h3 {
+                font-size: 25px !important;
+                margin: 0 !important;
+            }
+            h6 {
+                margin-top: 15px !important;
+            }
+            .content-section {
+                padding: 15px 30px !important;
+                margin-top: 30px;
+                .quotes {
+                    font-size: 22px !important;
+                }
+                .top-quote {
+                    margin-left: -15px !important;
+                    width: 25px;
+                }
+                .bottom-quote {
+                    margin-right: -15px !important;
+                    width: 25px;
+                }
+                .client-info {
+                    margin: 0 !important;
+                }
+            }
+        }
+        .tablets {
+            padding-top: 30px !important;
+            h3 {
+                margin-bottom: 15px !important;
+            }
+            .tablet-slider {
+                margin-top: 30px !important;
+                margin-left: 15px !important;
+            }
+        }
+        .benefits {
+            padding: 50px 15px !important;
+            h3 {
+                margin-bottom: 15px !important;
+                font-size: 25px !important;
+            }
+            .img-container {
+                margin-bottom: 15px !important;
+            }
+            .content {
+                margin-top: 30px;
+            }
+        }
+        footer {
+            padding: 30px 15px !important;
+            h1 {
+                font-size: 30px !important;
+                margin-bottom: 15px !important;
+            }
+            .col-lg-7 {
+                padding: 0 !important;
+            }
+            h6 {
+                margin-bottom: 0 !important;
+            }
+            ul {
+                margin-bottom: 30px !important;
+            }
+        }
+        body {
+            overflow-x: hidden;
+        }
+    }
+    
+    @media screen and (min-width:576px) and (max-width:767px) {
+        .nb {
+            height: 56px !important;
+        }
+        .nb-content {
+            display: block !important;
+        }
+        .navbar-collapse.show {
+            ul {
+                width: 100%;
+                background-color: $white !important;
+            }
+        }
+        .banner {
+            .text-section {
+                transform: translate(15%, -50%) !important;
+                h1 {
+                    font-size: 30px !important;
+                    margin-bottom: 15px !important;
+                }
+                p {
+                    font-size: 16px !important;
+                    margin-bottom: 15px !important;
+                    width: 40% !important;
+                }
+                .tag {
+                    display: none;
+                }
+            }
+            button {
+                padding: 0px 15px !important;
+                height: 48px !important;
+                margin-bottom: 15px;
+            }
+            .img-holder {
+                margin-left: -30px !important;
+            }
+        }
+        .mgn-rgt-52 {
+            margin-right: 5px !important;
+        }
+        .products {
+            padding: 30px 15px !important;
+            .content-box {
+                margin-top: 20px !important;
+                h5 {
+                    font-size: 22px !important;
+                }
+            }
+        }
+        .heading-section {
+            h3 {
+                font-size: 25px !important;
+            }
+            .abs-btn {
+                position: relative !important;
+                margin-top: 15px;
+                margin: auto !important;
+                text-align: center !important;
+                button {
+                    height: 48px !important;
+                    width: 200px !important;
+                    top: inherit !important;
+                    right: inherit !important;
+                }
+                .btn-primary {
+                    margin-right: auto !important;
+                }
+            }
+        }
+        .clients {
+            padding: 30px 0px !important;
+            h3 {
+                font-size: 25px !important;
+                margin: 0 !important;
+            }
+            h6 {
+                margin-top: 15px !important;
+            }
+            .content-section {
+                padding: 15px 30px !important;
+                margin-top: 30px;
+                .quotes {
+                    font-size: 22px !important;
+                }
+                .top-quote {
+                    margin-left: -15px !important;
+                    width: 25px;
+                }
+                .bottom-quote {
+                    margin-right: -15px !important;
+                    width: 25px;
+                }
+                .client-info {
+                    margin: 0 !important;
+                }
+            }
+        }
+        .tablets {
+            padding-top: 30px !important;
+            h3 {
+                margin-bottom: 15px !important;
+            }
+            .tablet-slider {
+                margin-top: 30px !important;
+                margin-left: 15px !important;
+            }
+        }
+        .benefits {
+            padding: 50px 15px !important;
+            h3 {
+                margin-bottom: 15px !important;
+                font-size: 25px !important;
+            }
+            .img-container {
+                margin-bottom: 15px !important;
+            }
+            .content {
+                margin-top: 30px;
+            }
+        }
+        footer {
+            padding: 30px 15px !important;
+            h1 {
+                font-size: 30px !important;
+                margin-bottom: 15px !important;
+            }
+            .col-lg-7 {
+                padding: 0 !important;
+            }
+            h6 {
+                margin-bottom: 0 !important;
+            }
+            ul {
+                margin-bottom: 30px !important;
+            }
+        }
+        body {
+            overflow-x: hidden;
+        }
+    }
+    
+    @media screen and (min-width:768px) and (max-width:991px) {
+        .nb {
+            height: 56px !important;
+        }
+        .nb-content {
+            display: block !important;
+        }
+        .navbar-collapse.show {
+            ul {
+                width: 100%;
+                background-color: $white !important;
+            }
+        }
+        .banner {
+            .text-section {
+                transform: translate(16%, -50%) !important;
+                h1 {
+                    font-size: 50px !important;
+                    margin-bottom: 15px !important;
+                }
+                p {
+                    font-size: 16px !important;
+                    margin-bottom: 15px !important;
+                    width: 40% !important;
+                }
+            }
+            button {
+                padding: 0px 15px !important;
+                height: 48px !important;
+                margin-bottom: 15px;
+            }
+            .img-holder {
+                margin-left: -90px !important;
+            }
+            .button-box {
+                width: 50% !important;
+            }
+        }
+        h1 {
+            font-size: 40px !important;
+        }
+        h3 {
+            font-size: 36px !important;
+        }
+        .products {
+            padding: 50px 0px !important;
+            .content-box {
+                h5 {
+                    font-size: 24px !important;
+                }
+            }
+        }
+        .abs-btn {
+            position: relative !important;
+            margin-top: 15px;
+            margin: auto !important;
+            text-align: center !important;
+            button {
+                height: 48px !important;
+                width: 200px !important;
+                top: inherit !important;
+                right: inherit !important;
+                margin-right: 0 !important;
+            }
+            .btn-primary {
+                margin-right: auto !important;
+            }
+        }
+        .clients {
+            padding: 50px 0 !important;
+            h3 {
+                margin: 0 !important;
+            }
+            h6 {
+                margin-top: 30px !important;
+            }
+            .content-section {
+                margin-top: 50px;
+                padding: 50px 100px !important;
+                .quotes {
+                    font-size: 28px !important;
+                }
+            }
+        }
+        .tablets {
+            padding-top: 50px !important;
+            .heading-section {
+                h3 {
+                    margin-bottom: 15px !important;
+                }
+                button {
+                    margin-right: 0 !important;
+                }
+            }
+            .tablet-slider {
+                margin-top: 50px;
+            }
+        }
+        .benefits {
+            padding: 50px !important;
+        }
+        footer {
+            padding: 50px 0 !important;
+            .row {
+                padding: 0 !important;
+            }
+            .col-lg-5 {
+                padding: 0 30px !important;
+            }
+        }
+    }
+    
+    @media screen and (min-width:992px) and (max-width:1199px) {
+        .nb {
+            background-color: $white !important;
+            .nbb {
+                color: $primary !important;
+            }
+        }
+        .banner {
+            .text-section {
+                transform: translate(15%, -50%) !important;
+                h1 {
+                    font-size: 70px !important;
+                    margin-bottom: 50px !important;
+                }
+                p {
+                    font-size: 16px !important;
+                    margin-bottom: 50px !important;
+                    width: 80% !important;
+                }
+            }
+        }
+        h1 {
+            font-size: 60px !important;
+        }
+        h3 {
+            font-size: 48px !important;
+        }
+        .products {
+            padding: 50px 0px !important;
+            .content-box {
+                h5 {
+                    font-size: 24px !important;
+                }
+            }
+        }
+        .abs-btn {
+            position: relative !important;
+            margin-top: 15px;
+            margin: auto !important;
+            text-align: center !important;
+            button {
+                height: 48px !important;
+                width: 200px !important;
+                top: inherit !important;
+                right: inherit !important;
+                margin-right: 0 !important;
+            }
+            .btn-primary {
+                margin-right: auto !important;
+            }
+        }
+        .clients {
+            padding: 50px 0 !important;
+            h6 {
+                margin-top: 30px !important;
+            }
+            .content-section {
+                margin-top: 50px;
+                padding: 50px 100px !important;
+                .quotes {
+                    font-size: 28px !important;
+                }
+            }
+        }
+        .tablets {
+            padding-top: 50px !important;
+            .heading-section {
+                h3 {
+                    margin-bottom: 15px !important;
+                }
+                button {
+                    margin-right: 0 !important;
+                }
+            }
+            .tablet-slider {
+                margin-top: 50px;
+            }
+        }
+        .benefits {
+            padding: 50px !important;
+        }
+        footer {
+            padding: 50px 0 !important;
+            .row {
+                padding: 0 !important;
+            }
+            .col-lg-5 {
+                padding: 0 30px !important;
+            }
+        }
+    }
+    
+    @media screen and (min-width:1200px) and (max-width:1440px) {
+        .nb {
+            a {
+                margin-right: 25px !important;
+            }
+            .nav-link {
+                padding: 0 !important;
+            }
+            .headerpad {
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+            }
+            .no-mgn {
+                margin: 0 !important;
+            }
+        }
+        .banner {
+            .text-section {
+                transform: translate(30%, -50%) !important;
+                h1 {
+                    font-size: 70px !important;
+                    margin-bottom: 50px !important;
+                }
+                p {
+                    font-size: 16px !important;
+                    margin-bottom: 50px !important;
+                    width: 80% !important;
+                }
+            }
+        }
+        h1 {
+            font-size: 60px !important;
+        }
+        h3 {
+            font-size: 48px !important;
+        }
+        .products {
+            padding: 120px 0px !important;
+            .content-box {
+                h5 {
+                    font-size: 24px !important;
+                }
+            }
+        }
+        .abs-btn {
+            button {
+                height: 48px !important;
+                width: 200px !important;
+            }
+            .btn-primary {
+                margin-right: auto !important;
+            }
+        }
+        .clients {
+            padding: 120px 0 !important;
+            h6 {
+                margin-top: 30px !important;
+            }
+            .content-section {
+                margin-top: 50px;
+                padding: 50px 100px !important;
+                .quotes {
+                    font-size: 28px !important;
+                }
+            }
+        }
+        .tablets {
+            padding-top: 120px !important;
+            .abs-btn {
+                right: 126px !important;
+            }
+            .heading-section {
+                h3 {
+                    margin-bottom: 15px !important;
+                }
+                button {
+                    margin-right: 0 !important;
+                }
+            }
+            .tablet-slider {
+                margin-top: 120px;
+            }
+        }
+        .benefits {
+            padding: 120px !important;
+        }
+        footer {
+            padding: 120px 0 !important;
+            .row {
+                padding: 0 !important;
+            }
+            .col-lg-5 {
+                padding: 0 30px !important;
+            }
+        }
+    }
+    
+    @media screen and (min-width:1441px) and (max-width:1899px) {
+        .nb {
+            a {
+                margin-right: 25px !important;
+            }
+            .nav-link {
+                padding: 0 !important;
+            }
+            .headerpad {
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+            }
+            .no-mgn {
+                margin: 0 !important;
+            }
+        }
+    }
+    
+    @media screen and (min-width:1900px) and (max-width:2560px) {
+        .container {
+            max-width: 1737px;
+        }
+    }
+    
+    @media screen and (min-width:2561px) and (max-width:3400px) {
+        .container {
+            max-width: 2460px;
+        }
+    }
+    
+    @media screen and (min-width:3400px) {
+        .container {
+            max-width: 3300px;
+        }
+    }

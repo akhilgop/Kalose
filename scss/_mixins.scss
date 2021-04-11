@@ -1,0 +1,59 @@
+// ----------------------------------------------------Mixins Library-----------------------------------------------------
+@mixin p-normal {
+    font-size: $p;
+    color: $body-color;
+}
+
+@mixin p-white {
+    font-size: $p;
+    color: $white;
+}
+
+@mixin p-white-cntr {
+    font-size: $p;
+    color: $white;
+    text-align: center;
+}
+
+@mixin p-center {
+    font-size: $p;
+    color: $body-color;
+    text-align: center;
+}
+
+@mixin a-normal {
+    font-size: $p;
+    color: $body-color;
+    text-decoration: none;
+}
+
+@mixin a-white {
+    font-size: $p;
+    color: $white;
+    text-decoration: none;
+}
+
+@mixin buttn($bg, $color) {
+    background: $bg;
+    color: $color;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+    box-shadow: none !important;
+}
+
+@mixin image {
+    width: 100%;
+}
+
+@mixin align-cntr {
+    margin: auto;
+    text-align: center;
+}
+
+@mixin flex-cntr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

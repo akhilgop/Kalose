@@ -1,0 +1,221 @@
+@import "variables";
+// ------------------------------------------------------------Move to Top-------------------------------------------//
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: $secondary;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 41px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $white;
+    svg {
+        fill: $white;
+        stroke: none;
+    }
+}
+
+#myBtn:hover {
+    border: 1px solid $primary;
+    background-color: $txt-color;
+    svg {
+        fill: $primary;
+    }
+}
+
+// ------------------------------------------------------------Header-------------------------------------------//
+.navbar {
+    height: 80px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    z-index: 100;
+    transition: background-color 1s ease 0s;
+}
+
+.navbar-default {
+    .navbar-brand {
+        margin-top: 10px;
+        color: $primary;
+        &:hover {
+            color: #C57ED3;
+            border: 1px solid #C57ED3;
+        }
+    }
+    .navbar-nav {
+        >li {
+            >a {
+                color: white;
+                margin: 10px 5px 5px 5px;
+            }
+            >a:hover,
+            >a:active,
+            >a:focus {
+                color: #C57ED3;
+                border: 1px solid #C57ED3;
+            }
+            >a:visited {
+                color: #C57ED3;
+                text-decoration: none;
+            }
+        } //end li
+        >.active {
+            >a,
+            >a:hover,
+            >a:focus {
+                background-color: transparent;
+                color: #C57ED3;
+            }
+        }
+    } //end .navbar-nav
+    //Collapsed styles
+    .navbar-toggle {
+        border-color: #C57ED3;
+        &:hover,
+        &:focus {
+            background-color: #490D40;
+        }
+        .icon-bar {
+            color: #C57ED3;
+            background-color: #C57ED3;
+        }
+    }
+    .navbar-collapse.collapse.in ul {
+        background-color: #490D40;
+    }
+} //end .navbar-default
+
+/* Solid class attached on scroll past first section */
+
+.navbar.solid {
+    background-color: #490D40;
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 4px grey;
+    .navbar-brand {
+        color: #C57ED3;
+        transition: color 1s ease 0s;
+    }
+    .navbar-nav {
+        >li {
+            >a {
+                color: #C57ED3;
+                transition: color 1s ease 0s;
+            }
+        } //end li
+    } //end .navbar-nav
+}
+
+.about {
+    background-color: #C57ED3;
+    color: #490D40;
+    height: 600px;
+    text-align: center;
+    margin-top: -20px;
+    h2 {
+        padding-top: 220px;
+    }
+    p {
+        padding: 20px 80px;
+    }
+}
+
+// ------------------------------------------------------------Slider-------------------------------------------//
+.tablet-slider {
+    .slider-nav img {
+        max-width: 100%;
+    }
+    .slider-for img {
+        width: 100%;
+    }
+    .slider-nav slick-slide:hover {
+        cursor: pointer;
+    }
+    .slick-prev,
+    .slick-next {
+        position: absolute;
+        top: 50%;
+        margin-top: -30px;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        font-size: 0;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        content: "";
+        display: block;
+        height: 60px;
+        opacity: 1;
+        width: 30px;
+    }
+    .slick-prev:hover:before,
+    .slick-next:hover:before {
+        opacity: 0.8;
+    }
+    .slick-prev {
+        left: 0;
+    }
+    .slick-prev:before {
+        background-image: url("http://www.flagshipsd.com/sites/default/files/userfiles/images/slick-prev.png");
+    }
+    .slick-next {
+        right: 0;
+    }
+    .slick-next:before {
+        background-image: url("http://www.flagshipsd.com/sites/default/files/userfiles/images/slick-next.png");
+    }
+    .modal-content {
+        background-color: rgba(0, 0, 0, 0);
+        border: 0 none;
+        border-radius: 0;
+        margin-left: 1px;
+    }
+    .modal-content .modal-body {
+        padding: 0;
+    }
+    .modal-content .modal-body iframe {
+        margin-bottom: -5px;
+    }
+    .modal-content .modal-header {
+        border: 0 none;
+        height: 0;
+        min-height: 0;
+        padding: 0;
+    }
+    .modal-content .modal-header .close {
+        background-color: #000000 !important;
+        border: 2px solid #ffffff !important;
+        border-radius: 13px;
+        color: #ffffff;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        height: 26px;
+        opacity: 1;
+        padding-bottom: 0;
+        position: absolute;
+        right: -13px;
+        text-shadow: none;
+        top: -13px;
+        width: 26px;
+        z-index: 1;
+    }
+}
+
+.slick-list {
+    padding: 0 !important;
+}
+
+.tablet-slider .slider-nav img {
+    max-width: 85% !important;
+}
