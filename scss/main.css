@@ -1198,6 +1198,24 @@ h3 {
   margin: 0 !important;
 }
 
+.tablets .btn-primary {
+  background-color: #102421;
+  color: #fff;
+}
+
+.tablets .btn-primary svg {
+  fill: #fff;
+}
+
+.tablets .btn-primary:hover, .tablets .btn-primary:active, .tablets .btn-primary:focus {
+  background-color: #fff;
+  color: #102421;
+}
+
+.tablets .btn-primary:hover svg, .tablets .btn-primary:active svg, .tablets .btn-primary:focus svg {
+  fill: #102421;
+}
+
 .benefits {
   padding: 165px 333px 260px 333px;
   text-align: center;

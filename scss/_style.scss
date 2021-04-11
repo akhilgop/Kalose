@@ -406,6 +406,22 @@
             .content-box {
                 margin: 0 !important;
             }
+            .btn-primary {
+                background-color: $primary;
+                color: $white;
+                svg {
+                    fill: $white;
+                }
+                &:hover,
+                &:active,
+                &:focus {
+                    background-color: $white;
+                    color: $primary;
+                    svg {
+                        fill: $primary;
+                    }
+                }
+            }
         }
         
         // ------------------------------------------------------------Benefits-------------------------------------------//
