@@ -378,6 +378,7 @@
         
         // ------------------------------------------------------------Tablets-------------------------------------------//
         .tablets {
+            overflow-x: hidden;
             padding-top: 166px;
             h3 {
                 margin-bottom: 100px;
@@ -389,6 +390,21 @@
             }
             .tablet-slider {
                 margin-left: 100px;
+                .content-box {
+                    .txt-section {
+                        margin-top: 59px;
+                    }
+                }
+                .slick-slide {
+                    width: 433px;
+                    margin-right: 66px;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+            .content-box {
+                margin: 0 !important;
             }
         }
         
