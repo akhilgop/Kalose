@@ -2,6 +2,10 @@
         @media screen and (max-width:575px) {
             .tablets .tablet-slider .slick-slide {
                 width: 90vw !important;
+                margin-right: 15px !important;
+                h5 {
+                    font-size: 22px !important;
+                }
             }
             .nb {
                 height: 56px !important;
@@ -19,6 +23,7 @@
                 ul {
                     width: 100%;
                     background-color: $white !important;
+                    padding: 15px;
                 }
             }
             .banner {
@@ -32,6 +37,9 @@
                         font-size: 16px !important;
                         margin-bottom: 15px !important;
                         width: 60% !important;
+                    }
+                    .tag {
+                        font-size: 14px !important;
                     }
                 }
                 button {
@@ -191,6 +199,11 @@
             .mgn-rgt-52 {
                 margin-right: 5px !important;
             }
+            .tablets .tablet-slider .slick-slide {
+                h5 {
+                    font-size: 22px !important;
+                }
+            }
             .products {
                 padding: 30px 15px !important;
                 .content-box {
@@ -344,6 +357,11 @@
                     }
                 }
             }
+            .tablets .tablet-slider .slick-slide {
+                h5 {
+                    font-size: 24px !important;
+                }
+            }
             .abs-btn {
                 position: relative !important;
                 margin-top: 15px;
@@ -437,6 +455,11 @@
                     h5 {
                         font-size: 24px !important;
                     }
+                }
+            }
+            .tablets .tablet-slider .slick-slide {
+                h5 {
+                    font-size: 24px !important;
                 }
             }
             .abs-btn {

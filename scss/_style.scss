@@ -52,6 +52,7 @@
         .nb {
             z-index: 11;
             // background-color: transparent;
+            height: 80px;
             a {
                 font-size: 14px;
                 line-height: 120.5%;
@@ -101,6 +102,11 @@
                 letter-spacing: 0.5em;
                 color: $white;
                 font-weight: 700;
+                &:hover,
+                &:active,
+                &:focus {
+                    text-decoration: none !important;
+                }
             }
             .nb-content {
                 display: flex;
@@ -345,6 +351,7 @@
                     line-height: 168%;
                     color: $txt-color3;
                     margin: 0;
+                    margin-left: auto !important;
                 }
                 .profession {
                     font-size: 16px;

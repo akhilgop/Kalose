@@ -85,6 +85,10 @@
 @media screen and (max-width: 575px) {
   .tablets .tablet-slider .slick-slide {
     width: 90vw !important;
+    margin-right: 15px !important;
+  }
+  .tablets .tablet-slider .slick-slide h5 {
+    font-size: 22px !important;
   }
   .nb {
     height: 56px !important;
@@ -99,6 +103,7 @@
   .navbar-collapse.show ul {
     width: 100%;
     background-color: #fff !important;
+    padding: 15px;
   }
   .banner .text-section {
     -webkit-transform: translate(15%, -50%) !important;
@@ -112,6 +117,9 @@
     font-size: 16px !important;
     margin-bottom: 15px !important;
     width: 60% !important;
+  }
+  .banner .text-section .tag {
+    font-size: 14px !important;
   }
   .banner button {
     padding: 0px 15px !important;
@@ -264,6 +272,9 @@
   .mgn-rgt-52 {
     margin-right: 5px !important;
   }
+  .tablets .tablet-slider .slick-slide h5 {
+    font-size: 22px !important;
+  }
   .products {
     padding: 30px 15px !important;
   }
@@ -410,6 +421,9 @@
   .products .content-box h5 {
     font-size: 24px !important;
   }
+  .tablets .tablet-slider .slick-slide h5 {
+    font-size: 24px !important;
+  }
   .abs-btn {
     position: relative !important;
     margin-top: 15px;
@@ -498,6 +512,9 @@
     padding: 50px 0px !important;
   }
   .products .content-box h5 {
+    font-size: 24px !important;
+  }
+  .tablets .tablet-slider .slick-slide h5 {
     font-size: 24px !important;
   }
   .abs-btn {
@@ -734,6 +751,7 @@ h3 {
 
 .nb {
   z-index: 11;
+  height: 80px;
 }
 
 .nb a {
@@ -803,6 +821,10 @@ h3 {
   letter-spacing: 0.5em;
   color: #fff;
   font-weight: 700;
+}
+
+.nb .navbar-brand:hover, .nb .navbar-brand:active, .nb .navbar-brand:focus {
+  text-decoration: none !important;
 }
 
 .nb .nb-content {
@@ -1121,6 +1143,7 @@ h3 {
   line-height: 168%;
   color: #454545;
   margin: 0;
+  margin-left: auto !important;
 }
 
 .clients .content-section .profession {
