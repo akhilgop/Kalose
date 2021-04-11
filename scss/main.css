@@ -97,6 +97,9 @@
     width: 100%;
     background-color: #fff !important;
   }
+  .nbb {
+    margin-top: 6px;
+  }
   .nb-content {
     display: block !important;
   }
@@ -818,7 +821,7 @@ h3 {
 .nb .navbar-brand {
   font-size: 16px;
   line-height: 120.5%;
-  letter-spacing: 0.5em;
+  letter-spacing: 3.6px;
   color: #fff;
   font-weight: 700;
 }
