@@ -602,6 +602,10 @@
     margin-bottom: 50px !important;
     width: 80% !important;
   }
+  .banner .image-section .img-holder img {
+    width: 87% !important;
+    float: right;
+  }
   h1 {
     font-size: 60px !important;
   }

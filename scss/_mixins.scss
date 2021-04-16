@@ -1,34 +1,28 @@
 // ----------------------------------------------------Mixins Library-----------------------------------------------------
 @mixin p-normal {
-    font-size: $p;
     color: $body-color;
 }
 
 @mixin p-white {
-    font-size: $p;
     color: $white;
 }
 
 @mixin p-white-cntr {
-    font-size: $p;
     color: $white;
     text-align: center;
 }
 
 @mixin p-center {
-    font-size: $p;
     color: $body-color;
     text-align: center;
 }
 
 @mixin a-normal {
-    font-size: $p;
     color: $body-color;
     text-decoration: none;
 }
 
 @mixin a-white {
-    font-size: $p;
     color: $white;
     text-decoration: none;
 }
